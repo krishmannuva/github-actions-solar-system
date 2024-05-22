@@ -39,7 +39,7 @@ jobs:
 
     code-coverage:
         name: code coverage test
-        runs-on: ubuntulatest        
+        runs-on: ubuntu-latest        
         steps:
         - name: Checkout Repo
           uses: actions/checkout@v4
